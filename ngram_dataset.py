@@ -9,7 +9,10 @@ class NgramDataset(object):
     def __len__(self):
         raise NotImplementedError
 
-    def __init__(self, file_name=None):
+
+class TrigramDataset(NgramDataset):
+
+    def __init__(self, file_name=None, mode='train'):
         if not file_name:
             file_name = os.path.join(os.getcwd(), 'data/penn/train.txt')
         f = open(file_name, 'r')
@@ -23,14 +26,6 @@ class NgramDataset(object):
             if len(word) != 0:
                 new_list.append(word)
         self.word_list = new_list
-
-
-class TrigramDataset(NgramDataset):
-
-    def __init__(self, file_name=None, mode='train'):
-        if not file_name:
-            file_name = os.path.join(os.getcwd(), 'data/penn/train.txt')
-        NgramDataset.__init__(file_name)
         word_dict = {}
         word_dict_tran = {}
         word_count = 0
@@ -42,10 +37,10 @@ class TrigramDataset(NgramDataset):
         self.word_dict = word_dict
         self.word_dict_tran = word_dict_tran
         new_word_list = []
-        for i in range(len(self.word_list)):
+        for i in range(len(self.word_list)-2):
             new_word_list.append(word_dict[self.word_list[i]])
         data = []
-        for i in range(len(new_word_list)):
+        for i in range(len(new_word_list)-2):
             data.append((new_word_list[i], new_word_list[i+1], new_word_list[i+2]))
         self.data = data
 

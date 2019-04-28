@@ -9,13 +9,23 @@ model = TrigramModel()
 model.train(trainset)
 
 train_result = model.predict(trainset)
-valid_result = model.predict(validset)
-test_result = model.predict(testset)
-
 train_result = np.array(train_result)
-valid_result = np.array(valid_result)
-test_result = np.array(test_result)
+print('train: ', np.power(2, -np.average(np.log(train_result))))
 
-print('train: ', np.sum(np.log(train_result)))
-print('valid: ', np.sum(np.log(valid_result)))
-print('test: ', np.sum(np.log(test_result)))
+valid_result = model.predict(validset)
+valid_result = np.array(valid_result)
+print('valid: ', np.power(2, -np.average(np.log(valid_result))))
+
+test_result = model.predict(testset)
+test_result = np.array(test_result)
+print('test: ', np.power(2, -np.average(np.log(test_result))))
+
+# word1 = 'edison'
+# word2 = 'spokesman'
+# sentence = word1 + ' ' + word2
+# for i in range(100):
+#     word = model.predict_single(word1, word2)
+#     sentence += ' ' + word
+#     word1 = word2
+#     word2 = word
+# print(sentence)
