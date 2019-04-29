@@ -3,12 +3,11 @@ from future import standard_library
 standard_library.install_aliases()
 from builtins import range
 from builtins import object
-import os
 import pickle as pickle
 
 import numpy as np
 
-from cs231n import optim
+from text_classification_test.cs231n import optim
 
 
 class Solver(object):
