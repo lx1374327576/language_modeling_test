@@ -1,0 +1,39 @@
+['<mediawiki', 'xmlns="http://www.mediawiki.org/xml/export-0.3/"', 'xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"', 'xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/', 'http://www.mediawiki.org/xml/export-0.3.xsd"', 'version="0.3"', 'xml:lang="en">']
+Initialized
+Average loss at step  0 :  8.837114334106445
+Nearest to also: finish, ideas, transform, prince, Nintendo, York., Bridge, Retrieved,
+Nearest to </page>: [[England]],, direction., loses, founding, [[Queen, default, in, 11]],,
+Nearest to and: [[square, Management, Edward, becomes, insisted, [[Christopher, ask, issue.,
+Nearest to to: railway, Working, exhibit, dance, Copyright, [[Prime, subordinate, station,
+Nearest to or: constitutes, adults, (both, headquarters, gained, coercion, US,, version.,
+Nearest to ==: identical, further, police, farming, player, [[Red, II,, result.,
+Nearest to |: Islands]], automobile, avoided, critique, also:'', 1979, Church, flag,
+Nearest to was: demanded, telling, coordinate, astronomical, graphic, Austria, reads, forum,
+Nearest to time: people's, frequencies, *&quot;The, Henry, subset, cycle, came, Carnegie,
+Nearest to these: <comment>robot, voted, Music, [[Foreign, Economy, example, explained, young,
+Nearest to <page>: sexually, politically, Review, height, optical, Force, focus, awareness,
+Nearest to into: raw, determines, escaped, manufacture, fix, traditions,, system]],, southwest,
+Nearest to made: healthy, seasons, politics., ''f'', principal, Earth's, closed, assuming,
+Nearest to *: Christ's, Age, advancing, bear, IEEE, Cricket, Movie, subjects,
+Nearest to new: theorem]], images, relating, effectiveness, v, BC,, library, whilst,
+Nearest to their: [[2003]]), Treaty, qualities, [[Category:History, 1963, expected, bill, unable,
+Softmax method took 28.576895 seconds to run 100 iterations
+Initialized
+Average loss at step  0 :  9.345112800598145
+Nearest to also: modification, such,, concentrated, *In, example, group, worse, edges,
+Nearest to </page>: Gates, 1985, all,, translated, colour, positions., Foreign, remote,
+Nearest to and: [[linear, [[Oliver, create, ideas, 1980,, [[Atlantic, [[Hans, 1948,
+Nearest to to: four-year, Construction, research., coach, dice, [[Democratic, state., Fame]],
+Nearest to or: background:, ***, depth, (except, after, Man, }}, African,
+Nearest to ==: times., parallel, cattle, floor, laboratory, seeing, light,, winter,
+Nearest to |: arise, practice., directory, districts, Connecticut, United, [[University, [[Harry,
+Nearest to was: more,, Years', firmly, effect., thought., Legend, cocaine, Empire]].,
+Nearest to time: looked, connect, coordinates, he, additional, apply, Articles, murdered,
+Nearest to these: assuming, representative, Wars, River]], spelled, Isaac, M., none,
+Nearest to <page>: band., code]], Medical, Under, handed, century]], xml:space="preserve">{{otheruses}}, sword,
+Nearest to into: spin, played, term,, Small, Turkey, slaves, improvements, moves,
+Nearest to made: earlier,, album, sound,, years,, [[Tim, agree, kick, panel,
+Nearest to *: If, wife, while, Line, continental, impression, Austrian, can't,
+Nearest to new: tunnel, east., alternate, afterwards, process, 100%, forty, [[India]],,
+Nearest to their: nervous, Chamber, Mobile, inside, Dublin, culture,, narrative, reality,,
+NCE method took 15.385673 seconds to run 100 iterations
